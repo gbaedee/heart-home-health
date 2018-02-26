@@ -1,0 +1,78 @@
+body, html{
+    height:100%;
+    margin: 0;
+    font-size: 16px;
+    font-weight:400;
+    line-height: 1.8em;
+    overflow-x: hidden;
+}
+
+
+.pimg1, .pimg2, .pimg3,.pimg4{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*
+      fixed = parallax
+      scroll = normal
+    */
+    background-attachment: fixed;
+}
+
+.pimg1{
+    background-image: url('../Images/Main.jpg');
+    min-height: 100%;
+}
+
+.pimg2{
+    background-image: url('../Images/second-main.jpg');
+    min-height: 400px;
+}
+
+.pimg3{
+    background-image: url('../Images/third-main.jpg');
+    min-height: 400px;
+}
+
+.pimg4{
+    background-image: url('../Images/first-main.jpg');
+    min-height: 400px;
+}
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 27px;
+    letter-spacing: 8px;
+
+}
+
+.ptext .border{
+    background-color: #e91e63;
+    color: #fff;
+    padding: 20px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 70%;
+}
+
+.stext{
+    padding: 50px 0 30px 0;
+}
+.h{
+    background: #e91e63;
+    font-size: 30px;
+    display:inline;
+
+}
